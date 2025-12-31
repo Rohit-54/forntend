@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 86px 0 0 86px;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, white 45%, rgb(210, 210, 210) 0%);
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.brand {
+    color: #3751FE;
+    font-size: 30px;
+}
+
+.menu a {
+    margin: 0 50px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.menu a:hover {
+    border-bottom: 3px solid blue;
+}
+
+.content {
+    margin-top: 80px;
+}
+
+.title {
+    color: #3751FE;
+    margin-right: 60%;
+    font-size: 36px;
+}
+
+.intro-text {
+    padding-top: 20px;
+}
+
+.login-form h3 {
+    color: purple;
+    padding: 7px 0;
+}
+
+.input-box {
+    display: block;
+    padding: 10px;
+    width: 475px;
+    border: 1px solid lightgray;
+    margin-bottom: 10px;
+}
+
+.input-box:hover {
+    border-left: 3px solid rgb(58, 58, 252);
+}
+
+.form-options {
+    display: flex;
+    margin: 20px 0 10px 30px;
+}
+
+.forgot-btn {
+    background: transparent;
+    border: none;
+    margin-left: 220px;
+    color: gray;
+}
+
+.forgot-btn:hover {
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.action-buttons {
+    display: flex;
+    margin: 40px 0;
+}
+
+.btn-login {
+    padding: 10px 20px;
+    background: blue;
+    color: white;
+    border: none;
+    box-shadow: 0 2px 5px gray;
+}
+
+.btn-signup {
+    padding: 10px 20px;
+    margin-left: 70px;
+    background: transparent;
+    border: 1px solid blue;
+    color: blue;
+}
+
+.social-login {
+    display: flex;
+}
+
+.or-text {
+    color: gray;
+    padding: 10px;
+}
+
+.social-btn {
+    margin-left: 55px;
+    margin-right: 15px;
+    background: transparent;
+    border: none;
+    color: blue;
+    font-weight: bold;
+}
+
+.cyc {
+  position: absolute;
+  top: 100px;
+  right: 100px;
+  width: 600px;
+  left: auto;
+  bottom: auto;
+}
